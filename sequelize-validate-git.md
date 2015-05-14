@@ -1,3 +1,6 @@
+---
+
+
 ## [Git Commands](http://git-scm.com/docs)
 
 - **git-clone - Clone a repository into a new directory**
@@ -17,6 +20,9 @@
 - **gitk - The Git repository browser**
   - `gitk –all`
   - `gitk –all &`
+
+
+---
 
 
 ## [Sequelize ORM](http://docs.sequelizejs.com/en/latest/)
@@ -155,7 +161,7 @@ To use sequelize properly we must use sequelize table objects. To use object met
 - `tableObj.increment('columnName');`
 - `tableObj.decrement('columnName');`
 
-
+<hr>
 
 ### Join with Sequelize ORM
 
@@ -220,7 +226,7 @@ Define objects of tables.
 
 ```
 
-
+---
 
 ## [Validations](https://github.com/chriso/validator.js)
 
