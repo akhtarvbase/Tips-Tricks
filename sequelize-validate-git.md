@@ -29,7 +29,7 @@ To use sequelize properly we must use sequelize table objects. To use object met
 
 
 
-```
+```javascript
 
   // Use `npm install sequelize` to add in project
 
@@ -77,7 +77,7 @@ To use sequelize properly we must use sequelize table objects. To use object met
 
 ###### By using find method we can have some options to use. [View Docs](http://docs.sequelizejs.com/en/latest/docs/models-usage/) eg:
 
-```
+```javascript
 
 
   tableObj.find({
@@ -98,28 +98,28 @@ To use sequelize properly we must use sequelize table objects. To use object met
 ###### Some few more options to use.
 
 
-- `$gt: 6,                **// id > 6**`
-- `$gte: 6,               **// id >= 6**`
-- `$lt: 10,               **// id < 10**`
-- `$lte: 10,              **// id <= 10**`
-- `$ne: 20,               **// id != 20**`
-- `$between: [6, 10],     **// BETWEEN 6 AND 10**`
-- `$notBetween: [11, 15], **// NOT BETWEEN 11 AND 15**`
-- `$in: [1, 2],           **// IN [1, 2]**`
-- `$like: '%hat',         **// LIKE '%hat'**`
-- `$notLike: '%hat'       **// NOT LIKE '%hat'**`
-- `$iLike: '%hat'         **// ILIKE '%hat' (case insensitive)**`
-- `$notILike: '%hat'      **// NOT ILIKE '%hat'**`
-- `$overlap: [1, 2]       **// && [1, 2] (PG array overlap operator)**`
-- `$contains: [1, 2]      **// @> [1, 2] (PG array contains operator)**`
-- `$contained: [1, 2]     **// <@ [1, 2] (PG array contained by operator)**`
+- `$gt: 6,                // id > 6`
+- `$gte: 6,               // id >= 6`
+- `$lt: 10,               // id < 10`
+- `$lte: 10,              // id <= 10`
+- `$ne: 20,               // id != 20`
+- `$between: [6, 10],     // BETWEEN 6 AND 10`
+- `$notBetween: [11, 15], // NOT BETWEEN 11 AND 15`
+- `$in: [1, 2],           // IN [1, 2]`
+- `$like: '%hat',         // LIKE '%hat'`
+- `$notLike: '%hat'       // NOT LIKE '%hat'`
+- `$iLike: '%hat'         // ILIKE '%hat' (case insensitive)`
+- `$notILike: '%hat'      // NOT ILIKE '%hat'`
+- `$overlap: [1, 2]       // && [1, 2] (PG array overlap operator)`
+- `$contains: [1, 2]      // @> [1, 2] (PG array contains operator)`
+- `$contained: [1, 2]     // <@ [1, 2] (PG array contained by operator)`
 
 
 
 ###### We have some more methods to use. eg:
 
 
-```
+```javascript
 
   // Find maximum value of id from table
   tableObj.max('id').then(function(result){
@@ -163,7 +163,7 @@ To use sequelize properly we must use sequelize table objects. To use object met
 Define objects of tables.
 
 
-```
+```javascript
 
 
   // Define database first table object
@@ -225,7 +225,7 @@ Define objects of tables.
 ## [Validations](https://github.com/chriso/validator.js)
 
 
-```
+```javascript
 
 
   // Define database table object
@@ -305,7 +305,7 @@ Define objects of tables.
 #### For custom validations.
 
 
-```
+```javascript
 
 
   // Define database table object
@@ -350,7 +350,7 @@ Define objects of tables.
 #### For custom message.
 
 
-```
+```javascript
 
 
   // Define database table object
