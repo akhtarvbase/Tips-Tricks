@@ -1,4 +1,4 @@
----
+<hr>
 
 
 ## [Git Commands](http://git-scm.com/docs)
@@ -22,7 +22,7 @@
   - `gitk –all &`
 
 
----
+<hr>
 
 
 ## [Sequelize ORM](http://docs.sequelizejs.com/en/latest/)
@@ -226,7 +226,7 @@ Define objects of tables.
 
 ```
 
----
+<hr>
 
 ## [Validations](https://github.com/chriso/validator.js)
 
