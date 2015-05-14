@@ -75,7 +75,7 @@ To use sequelize properly we must use sequelize table objects. To use object met
 
 ```
 
-###### By using find method we can have some options to use. [View Docs](http://docs.sequelizejs.com/en/latest/docs/models-usage/) eg:
+> By using find method we can have some options to use. [View Docs](http://docs.sequelizejs.com/en/latest/docs/models-usage/) eg:
 
 ```javascript
 
@@ -95,7 +95,7 @@ To use sequelize properly we must use sequelize table objects. To use object met
 ```
 
 
-###### Some few more options to use.
+> Some few more options to use.
 
 
 - `$gt: 6,                // id > 6`
@@ -116,7 +116,7 @@ To use sequelize properly we must use sequelize table objects. To use object met
 
 
 
-###### We have some more methods to use. eg:
+> We have some more methods to use. eg:
 
 
 ```javascript
@@ -143,7 +143,7 @@ To use sequelize properly we must use sequelize table objects. To use object met
 ```
 
 
-###### Some few more methods to use.
+> Some few more methods to use.
 
 
 - `tableObj.update({ columnName1: 'columnValue', columnName2: 'columnValue' });`
@@ -263,7 +263,7 @@ Define objects of tables.
 ```
 
 
-###### Some few more options to use for validation.
+> Some few more options to use for validation.
 
 
 - `is: ["^[a-z]+$",'i'],     // will only allow letters`
@@ -302,7 +302,7 @@ Define objects of tables.
 
 
 
-#### For custom validations.
+> For custom validations.
 
 
 ```javascript
@@ -347,7 +347,7 @@ Define objects of tables.
 
 
 
-#### For custom message.
+> For custom message.
 
 
 ```javascript
