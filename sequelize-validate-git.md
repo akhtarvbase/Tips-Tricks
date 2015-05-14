@@ -1,3 +1,11 @@
+# Virtual Base Presentation
+
+## Table of contents
+- [Git Commands](#git-commands)
+- [Sequelize ORM](#sequelize-orm)
+- [Validations](#validations)
+
+
 <hr>
 
 
