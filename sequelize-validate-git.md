@@ -1,18 +1,28 @@
-## Git Commands
+## [Git Commands](http://git-scm.com/docs)
 
-- `git fetch –all`
-- `git pull –all`
-- `git branch –a`
-- `git branch –D branchName`
-- `git checkout –b branchName`
-- `git checkout –b branchName origin/branchName`
-- `gitk –all`
+- **git-clone - Clone a repository into a new directory**
+  - `git clone -b branchName https://github.com/username/repository.git folderName`
+- **git-fetch - Download all objects and refs from repository**
+  - `git fetch –all`
+- **git-pull - Fetch from and integrate with another repository or a local branch**
+  - `git pull remoteName branchName`
+  - `git pull –all`
+- **git-branch - List, create, or delete branches**
+  - `git branch`
+  - `git branch –a`
+  - `git branch –D branchName`
+- **git-checkout - Checkout a branch or paths to the working tree**
+  - `git checkout –b branchName`
+  - `git checkout –b branchName origin/branchName`
+- **gitk - The Git repository browser**
+  - `gitk –all`
+  - `gitk –all &`
 
 
-## Sequelize ORM
+## [Sequelize ORM](http://docs.sequelizejs.com/en/latest/)
 
 
-To use sequelize properly we must use sequelize table objects. To objects use we must define objects first.
+To use sequelize properly we must use sequelize table objects. To use object method we must define objects first.
 
 
 ### Quick Startup
@@ -88,21 +98,21 @@ To use sequelize properly we must use sequelize table objects. To objects use we
 ###### Some few more options to use.
 
 
-- `$gt: 6,                // id > 6`
-- `$gte: 6,               // id >= 6`
-- `$lt: 10,               // id < 10`
-- `$lte: 10,              // id <= 10`
-- `$ne: 20,               // id != 20`
-- `$between: [6, 10],     // BETWEEN 6 AND 10`
-- `$notBetween: [11, 15], // NOT BETWEEN 11 AND 15`
-- `$in: [1, 2],           // IN [1, 2]`
-- `$like: '%hat',         // LIKE '%hat'`
-- `$notLike: '%hat'       // NOT LIKE '%hat'`
-- `$iLike: '%hat'         // ILIKE '%hat' (case insensitive)`
-- `$notILike: '%hat'      // NOT ILIKE '%hat'`
-- `$overlap: [1, 2]       // && [1, 2] (PG array overlap operator)`
-- `$contains: [1, 2]      // @> [1, 2] (PG array contains operator)`
-- `$contained: [1, 2]     // <@ [1, 2] (PG array contained by operator)`
+- `$gt: 6,                **// id > 6**`
+- `$gte: 6,               **// id >= 6**`
+- `$lt: 10,               **// id < 10**`
+- `$lte: 10,              **// id <= 10**`
+- `$ne: 20,               **// id != 20**`
+- `$between: [6, 10],     **// BETWEEN 6 AND 10**`
+- `$notBetween: [11, 15], **// NOT BETWEEN 11 AND 15**`
+- `$in: [1, 2],           **// IN [1, 2]**`
+- `$like: '%hat',         **// LIKE '%hat'**`
+- `$notLike: '%hat'       **// NOT LIKE '%hat'**`
+- `$iLike: '%hat'         **// ILIKE '%hat' (case insensitive)**`
+- `$notILike: '%hat'      **// NOT ILIKE '%hat'**`
+- `$overlap: [1, 2]       **// && [1, 2] (PG array overlap operator)**`
+- `$contains: [1, 2]      **// @> [1, 2] (PG array contains operator)**`
+- `$contained: [1, 2]     **// <@ [1, 2] (PG array contained by operator)**`
 
 
 
@@ -212,7 +222,7 @@ Define objects of tables.
 
 
 
-## Validations
+## [Validations](https://github.com/chriso/validator.js)
 
 
 ```
